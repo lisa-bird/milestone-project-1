@@ -1,5 +1,42 @@
 
-
+body {
+  background-color: rgb(10, 10, 11);
+}
 p {
     font-family: "Lora", sans-serif;
+}
+.logo {
+}
+.nav {
+    background-color: rgb(10, 10, 11);
+    border: solid 1px #F6770E;
+
+}
+.nav li a {
+    color: #F6770E;
+    
+}
+.hero-image {
+    height: 500px;
+    width: 100%;
+    background: url(/images/group1.jpg);
+    background-position: center;
+}
+.hero-text {
+    text-align: center;
+    
+    color: #fff;
+    text-transform: uppercase;
+}
+.container-fluid {
+    color: #fff;
+}
+footer {
+    color: #F6770E;
+    min-height: 60px;
+    border: solid 1px #F6770E;
+}
+.list-inline-item i {
+    color: #F6770E;
+   
 }
