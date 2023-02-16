@@ -1,21 +1,20 @@
-
+:root {
+    --nav-color: #F6770E;
+    --page-bg: #0a0a0b;
+    --main-text: #f3f0f0;
+}
 body {
-  background-color: rgb(10, 10, 11);
+  background-color: var(--page-bg);
 }
 p {
     font-family: "Lora", sans-serif;
 }
-.logo {
-}
-.nav {
-    background-color: rgb(10, 10, 11);
-    border: solid 1px #F6770E;
 
+
+nav h5 {
+    color: var(--nav-color);
 }
-.nav li a {
-    color: #F6770E;
-    
-}
+
 .hero-image {
     height: 500px;
     width: 100%;
@@ -25,18 +24,18 @@ p {
 .hero-text {
     text-align: center;
     
-    color: #fff;
+    color: var(--main-text);
     text-transform: uppercase;
 }
 .container-fluid {
-    color: #fff;
+    color: var(--main-text);
 }
 footer {
-    color: #F6770E;
+    color: var(--nav-color);
     min-height: 60px;
-    border: solid 1px #F6770E;
+    border: solid 1px var(--nav-color);
 }
 .list-inline-item i {
-    color: #F6770E;
+    color: var(--nav-color);
    
 }
