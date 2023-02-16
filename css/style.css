@@ -16,16 +16,21 @@ nav h5 {
 }
 
 .hero-image {
-    height: 500px;
+    height: 552px;
+    max-width: 1400px;
     width: 100%;
     background: url(../images/group1.jpg);
     background-position: center;
+    position: relative;
 }
 .hero-text {
     text-align: center;
     
     color: var(--main-text);
     text-transform: uppercase;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 .container-fluid {
     color: var(--main-text);
@@ -38,4 +43,7 @@ footer {
 .list-inline-item i {
     color: var(--nav-color);
    
+}
+.border-light-subtle {
+    border-radius: 25px;
 }
