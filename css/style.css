@@ -19,7 +19,7 @@ p {
 .hero-image {
     height: 500px;
     width: 100%;
-    background: url(/images/group1.jpg);
+    background: url(../images/group1.jpg);
     background-position: center;
 }
 .hero-text {
