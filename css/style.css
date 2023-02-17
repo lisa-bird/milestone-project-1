@@ -34,6 +34,7 @@ nav h5 {
 }
 .container-fluid {
     color: var(--main-text);
+    border-radius: 25px;
 }
 footer {
     color: var(--nav-color);
@@ -47,3 +48,4 @@ footer {
 .border-light-subtle {
     border-radius: 25px;
 }
+ 
