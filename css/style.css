@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Merriweather:wght@900&display=swap');
 :root {
     --nav-color: #F6770E;
     --page-bg: #0a0a0b;
     --main-text: #f3f0f0;
 }
+
+
 body {
   background-color: var(--page-bg);
+
 }
-p {
-    font-family: "Lora", sans-serif;
-}
+
 
 
 nav h5 {
@@ -25,6 +27,7 @@ nav h5 {
 }
 .hero-text {
     text-align: center;
+    font-family: "Merriweather", serif;
     
     color: var(--main-text);
     text-transform: uppercase;
@@ -40,6 +43,10 @@ footer {
     color: var(--nav-color);
     min-height: 60px;
     border: solid 1px var(--nav-color);
+    
+}
+h6 lora {
+   font-family: "Lora", serif;
 }
 .list-inline-item i {
     color: var(--nav-color);
@@ -122,4 +129,5 @@ table th, table td {
 .time {
   width: 3em !important;
 }
+
 
