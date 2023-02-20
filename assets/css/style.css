@@ -46,6 +46,10 @@ footer {
 }
 .f-text {
    font-family: "Lora", serif;
+
+}
+.address {
+  font-weight: 100;
 }
 .list-inline-item i {
     color: var(--nav-color);
@@ -145,3 +149,9 @@ table th, table td {
   }
   
 }*/
+
+.buttonitem a i {
+  padding-top: 5px;
+  display: inline;
+  font-size: 26px;
+}
