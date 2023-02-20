@@ -1,27 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Merriweather:wght@900&display=swap');
+/*-----------------------------Page colours*/
 :root {
     --nav-color: #f6770e;
     --page-bg: #0a0a0b;
     --main-text: #f3f0f0;
 }
-
-
 body {
   background-color: var(--page-bg);
-
 }
-
-
-
+/*-----------------------------Nav bar*/
 nav h5 {
     color: var(--nav-color);
 }
-
+/*-----------------------------Landing area*/
 .hero-image {
     height: 552px;
     max-width: 1400px;
     width: 100%;
-    background: url(../images/group1.jpg);
+    background: url(../../images/group1.jpg);
     background-position: center;
     position: relative;
 }
@@ -39,11 +35,14 @@ nav h5 {
     color: var(--main-text);
     border-radius: 25px;
 }
+.intro {
+  font-family: "Lora", serif;
+}
+/*-----------------------------Footer*/
 footer {
     color: var(--nav-color);
     min-height: 60px;
     border: solid 1px var(--nav-color);
-    
 }
 .f-text {
    font-family: "Lora", serif;
@@ -55,7 +54,6 @@ footer {
 .border-light-subtle {
     border-radius: 25px;
 }
- 
 /*-----------------------------Timetable*/
 section h3 {
     color: var(--main-text);
@@ -92,7 +90,6 @@ section h3 {
   font-weight: 300;
   cursor: pointer;
 }
-
 
 *, *:before, *:after {
   margin: 0;
@@ -137,7 +134,10 @@ table th, table td {
   font-family: "Lora", serif;
   
 }
-
 .menuitem p {
   font-family: "Lora", serif;
+}
+.enquiryitem {
+  color: var(--main-text);
+  
 }
