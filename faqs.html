@@ -127,20 +127,29 @@
         </div>
         </div>-->
 
-        <form class=" bg-dark border border-3 border-warning rounded enquiryitem m-5">
-         
-          <div class="mb-3 bg-dark">
-            <label for="exampleInputEmail1" class="form-label">Enquiry Form</label>
-            <input type="email" class="form-control bg-dark enquiryitem" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text bg-dark enquiryitem">We'll never share your email with anyone else.</div>
-          </div>
-          <div class="mb-3 bg-dark">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control bg-dark enquiryitem" id="exampleInputPassword1">
-          </div>
+       
+        <form>
+            <div class="mb-3 border border-3 border-warning rounded bg-dark p-3" >
+                <label for="full_name" class="form-label text-light mb-3"><strong>Name</strong></label>
+                <input type="text" class="form-control border-warning" id="full_name" required placeholder="Sally Jones" aria-describedby="emailHelp">
+                <label for="email" class="form-label text-light"><strong>Email</strong></label>
+                <input type="email" class="form-control border-warning" id="email" value="sjones@gmail.com" required
+                aria-describedby="emailHelp">
+
+              <div id="emailHelp" class="form-text text-light">
+                <strong>Couldn't find an answer to your question. Type your question in the box below and submit.</strong>
+              </div>
           
-          <button type="submit" class="btn btn-warning">Submit</button></div>
+              <div class="mb-3 mt-3">
+                <label for="enquiry" class="form-label text-light"><strong>Enquiry</strong></label>           
+                <textarea name="enquiry" id="enquiry" cols="50" rows="3" placeholder="Type question here." required></textarea>          
+              </div>    
+
+              <button type="submit" class="btn btn-warning"><strong>Submit</strong></button>
+            </div>
         </form>
+        
+        
 
  
     </section>

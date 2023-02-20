@@ -137,7 +137,11 @@ table th, table td {
 .menuitem p {
   font-family: "Lora", serif;
 }
-.enquiryitem {
-  color: var(--main-text);
+/*@media screen and (max-width: 480px){
+  #timetable {
+    width: 30%;
+    height: 800px;
+    margin: 0 auto;
+  }
   
-}
+}*/
