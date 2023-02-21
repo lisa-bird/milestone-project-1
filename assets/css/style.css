@@ -125,6 +125,7 @@ table th, table td {
   text-transform: uppercase;
   font-size: 0.6em;
   text-align: center;
+  position: fixed;
 }
 
 .time {
