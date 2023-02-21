@@ -118,6 +118,7 @@ table tr:nth-child(2n+3) {
 table th, table td {
   padding: 1em;
   width: 10em;
+  position: fixed;
 }
 
 .days, .time {
@@ -130,6 +131,7 @@ table th, table td {
 
 .time {
   width: 3em !important;
+  position: fixed;
 }
 
 /*----------------------------Blog articles*/
