@@ -118,7 +118,6 @@ table tr:nth-child(2n+3) {
 table th, table td {
   padding: 1em;
   width: 10em;
-  position: fixed;
 }
 
 .days, .time {
@@ -126,12 +125,10 @@ table th, table td {
   text-transform: uppercase;
   font-size: 0.6em;
   text-align: center;
-  position: fixed;
 }
 
 .time {
   width: 3em !important;
-  position: fixed;
 }
 
 /*----------------------------Blog articles*/
@@ -157,4 +154,8 @@ table th, table td {
   padding-top: 5px;
   display: inline;
   font-size: 26px;
+}
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
