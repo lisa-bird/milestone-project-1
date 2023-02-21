@@ -23,8 +23,7 @@ nav h5 {
 }
 .hero-text {
     text-align: center;
-    font-family: "Merriweather", serif;
-    
+    font-family: "Merriweather", serif;    
     color: var(--main-text);
     text-transform: uppercase;
     width: 100%;
@@ -46,14 +45,12 @@ footer {
 }
 .f-text {
    font-family: "Lora", serif;
-
 }
 .address {
   font-weight: 100;
 }
 .list-inline-item i {
-    color: var(--nav-color);
-   
+    color: var(--nav-color);   
 }
 .border-light-subtle {
     border-radius: 25px;
@@ -66,35 +63,28 @@ section h3 {
 .blue {
   background: #3498db;
 }
-
 .purple {
   background: #9b59b6;
 }
-
 .navy {
   background: #34495e;
 }
-
 .green {
   background: #2ecc71;
 }
-
 .red {
   background: #e74c3c;
 }
-
 .orange {
   background: #f39c12;
 }
 .pink {
     background: #f34dcf;
   }
-
 .cs335 {
   font-weight: 300;
   cursor: pointer;
 }
-
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -104,7 +94,6 @@ section h3 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 table {
   font-family: 'Open Sans', Helvetica;
   color: #efefef;
@@ -117,16 +106,14 @@ table tr:nth-child(2n+3) {
 }
 table th, table td {
   padding: 1em;
-  width: 10em;
+  width: 10em;  
 }
-
 .days, .time {
   background: #3a3735;
   text-transform: uppercase;
   font-size: 0.6em;
   text-align: center;
 }
-
 .time {
   width: 3em !important;
 }

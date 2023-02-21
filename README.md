@@ -44,7 +44,13 @@ To achieve the user centered approach the website have these features included:
 The information on the website is structered in a logical way. The home page displays a bright hero image with the companys slogan 'No more boring workouts' plus an introduction paragraph, as well as a'sign up' button. The second page details a selection of the unusual fitness classes, including videos and a playlist. The timetable is displayed for the week, with the option to download as a PDF. The blog page is next, listing eight trending articles, with external links opening in a new tab. Lastly is the frequently asked question and equiry form page.
 
 ## The Skeleton
-Here is a link to the wire frames for mobile, tablet and desktop.
+Here are the links to the wire frames for mobile, tablet and desktop. There are a couple of changes to the website from that of the wire frame design.
+
+[Mobile wire frames](https://www.figma.com/file/w4OM43eCJ30Sus1qrbuIXz/Mobile?node-id=0%3A1)
+
+[Desktop wire frames](https://www.figma.com/file/CZQUWnzlppbhDAF0BGZUZ8/Wire-frames---desktop?node-id=0%3A1)
+
+[Laptop wire frames](https://www.figma.com/file/CZQUWnzlppbhDAF0BGZUZ8/Wire-frames---desktop?node-id=2%3A12)
 
 ## The Surface
 
