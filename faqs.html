@@ -52,7 +52,7 @@
 <!----------------------------------------------- Accordion of FAQs -->
     <section>
 <!----------------------------------------------- Question 1 -->
-      <div style="--bs-accordion-active-color: black; --bs-accordion-btn-focus-box-shadow: 0;--bs-accordion-active-bg: #ffc107;" class="accordion" id="accordionExample">
+      <div class="accordion myaccordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -121,11 +121,13 @@
             </div>
           </div>
         </div>           
-      </div>
-
+      </div>    
       <br>
- 
+    </section>
+ <!-----------------------------------------------End of Accordion-->
+    
 <!----------------------------------------------- Enquiry Form -->      
+    <section>
         <form>
             <div class="mb-3 border border-3 border-warning rounded bg-dark p-3" >
                 <label for="full_name" class="form-label text-light mb-3"><strong>Name</strong></label>
@@ -140,14 +142,14 @@
           
               <div class="mb-3 mt-3">
                 <label for="enquiry" class="form-label text-light"><strong>Enquiry</strong></label>           
-                <textarea name="enquiry" id="enquiry" cols="20" rows="4" placeholder="Type question here." required></textarea>          
+                <textarea  class="form-control"  id="enquiry" rows="4" placeholder="Type question here." required></textarea>          
               </div>    
 
               <button type="submit" class="mt-3 btn btn-warning position-relative top-0 start-50 translate-middle"><strong>Submit</strong></button>
             </div>
         </form>        
     </section>
-
+  <!----------------------------------------------- Enquiry Form End-->
   <!------------------------- Footer -->
     <footer class="container-fluid">
       <div class="row">
