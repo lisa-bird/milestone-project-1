@@ -56,6 +56,9 @@ footer {
     border-radius: 25px;
 }
 /*-----------------------------Timetable*/
+#mytimetable {
+  overflow-x: scroll;
+}
 section h3 {
     color: var(--main-text);
     padding-top: 20px;
@@ -128,14 +131,6 @@ table th, table td {
 .menuitem p {
   font-family: "Lora", serif;
 }
-/*@media screen and (max-width: 480px){
-  #timetable {
-    width: 30%;
-    height: 800px;
-    margin: 0 auto;
-  }
-  
-}*/
 
 .buttonitem a i {
   padding-top: 5px;
@@ -146,3 +141,4 @@ table th, table td {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
+
