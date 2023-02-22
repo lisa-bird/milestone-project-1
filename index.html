@@ -64,21 +64,63 @@
               new classes - 'Clubbercise', 'Badass' and 'Box N Burn', head over to the fitness classes page to read more about these. To join our
               friendly, welcoming crew, just hit that sign up button! Find us at Unit 3, Bambers Leisure, Wisbech. PE14 7DA.
             </p>
-<!--------------------------------Call to Action 'Sign Up' -->        
-          <div class="order-1 order-md-2 col-12 col-md-3 offset-md-1">
-             <p class="btn btn-outline-warning border-3"><strong>Sign Up Today!</strong></p>
-          </div>          
-         </div>
-        </div>   
- <!--------------------------------Google Maps-->        
-        <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2418.565046981804!2d0.19387971513477711!3d52.68589177984592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x47d81dc8d71e1f5d%3A0x4254d9704c8ae065!2sThe%20Studio%2C%203A%20Pondland%20Retail%20Park%2C%20Lynn%20Rd%2C%20Wisbech!3m2!1d52.6858918!2d0.1960684!5e0!3m2!1sen!2suk!4v1677010291975!5m2!1sen!2suk" 
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+<!------------------------------------------End -->    
+    
+<!----------------------------------- Button trigger modal -->
+        <div class="order-1 order-md-2 col-12 col-md-3 offset-md-1">   
+          <button type="button" class="btn btn-outline-warning border-3 p-3 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <strong>Sign Up Today!</strong>
+          </button>
         </div>
+<!--------------------------------------------------- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Sign Up Here</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            <div class="modal-body">
+                <form action="">
+                  <form>
+                    <div class="mb-3 border border-3 border-warning rounded bg-dark p-3" >
+                        <label for="full_name" class="form-label text-light mb-3"><strong>Name</strong></label>
+                        <input type="text" class="form-control border-warning" id="full_name" required placeholder="Sally Jones" aria-describedby="emailHelp">
+
+                        <label for="email" class="form-label text-light"><strong>Email</strong></label>
+                        <input type="email" class="form-control border-warning" id="email" value="sjones@gmail.com" required
+                        aria-describedby="emailHelp">
+
+                        <label for="phone" class="form-label text-light"><strong>Phone Number</strong></label>
+                        <input type="email" class="form-control border-warning" id="phone" value="07912 224234" required
+                        aria-describedby="emailHelp">
+
+                        <p>We will contact you to set up payment detail. Thank you.</p>
+                      </div>
+                  </form>          
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- ------------------------------End-->    
+    </section>
+
+
+
+
+ <!-- ------------------------------Google Maps-->        
+        <div >
+          <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2418.565046981804!2d0.19387971513477711!3d52.68589177984592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x47d81dc8d71e1f5d%3A0x4254d9704c8ae065!2sThe%20Studio%2C%203A%20Pondland%20Retail%20Park%2C%20Lynn%20Rd%2C%20Wisbech!3m2!1d52.6858918!2d0.1960684!5e0!3m2!1sen!2suk!4v1677010291975!5m2!1sen!2suk" 
+            width="100%" height="300" style="border:0;" aria-label="snippet of map, locating the studio" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div> 
       
 
-    </section>
+    
 <!------------------------- Footer -->
     <footer class="container-fluid">
       <div class="row">
