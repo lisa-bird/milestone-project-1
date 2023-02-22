@@ -37,6 +37,9 @@ nav h5 {
 .intro {
   font-family: "Lora", serif;
 }
+.map {
+  width: 100%;
+}
 /*-----------------------------Footer*/
 footer {
     color: var(--nav-color);
@@ -155,8 +158,11 @@ table th, table td {
 .myimage {
   padding-left: 40px;
   margin-top: 50px;
-
 }
+.playlist {
+  width: 100%;
+}
+
  @media screen and (max-width: 768px) {
     .image-card{
       padding-left: 0;
