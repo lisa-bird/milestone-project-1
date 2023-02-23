@@ -1,5 +1,9 @@
 # Milestone 1 Project
 
+[Visit the website here](https://lisa-bird.github.io/milestone-project-1/)
+
+![Mock Up](/images/mock-up.jpg)
+
 The first milestone project calls for a website that can be used to inform users. After some thought, the decision was made to create a website for my local fitness club 'The Studio'. This site can be used by members and potential members. 
 
 
@@ -158,19 +162,16 @@ For Mobile
 
 # Functionality, Usability & Responsive Tests
 
-[Further testing](/download/website-tests1.xlsx)
 [Further testing](/download/testing.pdf)
 
 # Feedback
 
-Layout of fitness pages on desktop - changed to a horizontal card, changed the size of the image and added css to the video
+The initial layout of 'fitness classes' was not very fitting with the rest of the site. Viewing on desktop made the original cards strtch to 100% width but the image was small in comparisson, around 30% width. This layout was not appealing to the eye. Changed the layout to overcome this and balance out the visuals.
 
-Colours of the accordion, a lot of research was done to dicover the correct class in Bootstrap to override the set class
+The design of the enquiry form lacked uniform, with a small text area. 
 
-#
+Agreeing with this feedback, the changes were made.
 
-
-Positioning of content
 
 # Deployment
 
@@ -185,8 +186,23 @@ This website is deployed using Github. This can be done by  following these stag
 
 ![Deployment](/images/deploy.jpg)
 
-
-
-
 # Credits
+
+Some of the framework used in the website was taken and edited from
+- [Boostrap v5.3](https://getbootstrap.com/)
+
+The content for the fitness classes was taken from
+
+- [Clubbercise](https://www.clubbercise.com/)
+- [Badass](https://bouncedancefit.com/about-badass/)
+- [Box N Burn](https://www.boxnburn.com/)
+
+The articles were copied from
+
+- [Pure Gym](https://www.puregym.com/)
+- [My Fitness Pal](https://www.myfitnesspal.com/)
+
+Mock up image
+
+Designed by rawpixel.com / Freepik
 
