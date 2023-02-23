@@ -95,7 +95,7 @@ To help me create this website I used these technologies:
 
 The decision was made to deploy the website in the first stages. 
 
-The timtable uses the <table> element, this element cannot be used responsively. A user would expect to scroll the graphic, using their fingertip.
+The timtable is not responsive for a mobile device, it is not tended behaviour. A user would expect to scroll the graphic, using their fingertip.
 
 ## Bugs / Fixes
 There have been a few bugs within the build of the website.
