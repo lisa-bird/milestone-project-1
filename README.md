@@ -90,7 +90,7 @@ The decision was made to deploy the website in the first stages.
 ## User Stories
 
 ## User - 1
-First time visitor to the website, wants to see an intuitive design, interaction and an easy to undertand layout. 
+First time visitor to the website, wants to see an intuitive design, interaction and an easy to understand layout. 
 
 ![Landing page screenshot](/images/user-1.jpg)
 
