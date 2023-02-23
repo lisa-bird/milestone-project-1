@@ -26,7 +26,9 @@ Business goals include traffic to the website with the possibility of generating
 * Videos of new classes
 * Bright, consistent colours  
 
-The website has been created with a user centered design to achieve a positive user experience, to make sure users enjoy using the website, wanting to come back again and again.
+The website has been designed to be responsive over different devices, mobile, tablet and desktop. The majority of the audience of this website will be viweing the site on a mobile device.
+
+The site has been created with a user centered design to achieve a positive user experience, to make sure users enjoy using the website, wanting to come back again and again. 
 
 ## The Scope
 To achieve the user centered approach the website has these features included:
@@ -36,6 +38,7 @@ To achieve the user centered approach the website has these features included:
 * Downloadable timetable
 * All links open in a new tab
 * Links to social media platforms
+* Interactive Google map 
 * Enquiry form
 * YouTube Videos embedded in the site
 * Spotify Clubbercise playlist embedded in the site
@@ -87,6 +90,24 @@ To help me create this website I used these technologies:
 # Testing
 The decision was made to deploy the website in the first stages. 
 
+# Bugs / Fixes
+There have been a few bugs within the build of the website.
+ * On initial deployment, the hero image did not render but it did locally. The image path was incorrect, it was pointing to the wrong folder. Corrected.
+
+ * The fitness classes page became problematic, the images and videos inside the cards would not display without distorting the image. Everything was tried to fix this but they only looked good on the mobile screen. The decision was made to change the layout, using horizontal cards instead, making the images 100px bigger and including media queries for the desktop.
+
+ * The colours of the BS accordion on page 'FAQs' were difficult to override. Eventally narrowing down the correct CSS to change the active section, and inserting a custom CSS class.
+
+* On the enquiry form, the text area looked small in comparrison to the rest of the form, with the label appearing to the side instead of above. To fix these the class 'form-control' was added.
+
+## Validator Tests
+The W3C Mark Up Service was used to validate the HTML and CSS. On intitial check, there were a few small errors, that were easily fixed. On second check, no errors were found. ( apart from using more hyphens in the comments )
+
+![CSS Validator](/images/CSS-validator1.jpg)
+
+![HTML Validator](/images/html-validator.jpg)
+
+
 ## User Stories
 
 ## User - 1
@@ -127,13 +148,27 @@ A first time visitor has a question in mind but can not find the answer in the F
 
 An accordion of frequently asked questions has been inserted in page 'FAQs', when the question is selected the answer is displayed. An enquiry form is located under this, the user can then ask any questions that have not been answered. The form is labelled correctly with placeholder text to aid the user.
 
+# Lighthouse
+
+For Desktop
+![Lighthouse](/images/lgthouse-chrome-d.jpg)
+
+For Mobile
+![Lighthouse mobile](/images/lgthouse-chrome-m.jpg)
+
+# Functionality, Usability & Responsive Tests
+
+[Further testing](/download/website-tests1.xlsx)
+[Further testing](/download/testing.pdf)
+
 # Feedback
 
 Layout of fitness pages on desktop - changed to a horizontal card, changed the size of the image and added css to the video
 
 Colours of the accordion, a lot of research was done to dicover the correct class in Bootstrap to override the set class
 
-Hero image only rendered locally - the path was wrong
+#
+
 
 Positioning of content
 
