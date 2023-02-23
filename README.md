@@ -92,9 +92,12 @@ To help me create this website I used these technologies:
 
 
 # Testing
+
 The decision was made to deploy the website in the first stages. 
 
-# Bugs / Fixes
+The timtable uses the <table> element, this element cannot be used responsively. A user would expect to scroll the graphic, using their fingertip.
+
+## Bugs / Fixes
 There have been a few bugs within the build of the website.
  * On initial deployment, the hero image did not render but it did locally. The image path was incorrect, it was pointing to the wrong folder. Corrected.
 
@@ -114,21 +117,21 @@ The W3C Mark Up Service was used to validate the HTML and CSS. On intitial check
 
 ## User Stories
 
-## User - 1
+### User - 1
 First time visitor to the website, wants to see an intuitive design, interaction and an easy to understand layout. 
 
 ![Landing page screenshot](/images/user-1.jpg)
 
 The website has been deisigned to be informative, easy to follow, navigate, and interact with. The navigation bar is clearly labelled with the name of each page, along with the logo linking back to the home page. Call to action buttons are easy to see.
 
-## User - 2
+### User - 2
 This visitor has heard about 'The Studio' and wants to check out the fun and unusual classes it offers.
 
 ![Fitness classes](/images/user-2.jpg)
 
 The Studio is known for its fun workout. However, some of these are not the typical generic fitness classes. Videos are embedded in the code, showing the user what to expect, as well as a playlist.
 
-## User - 3
+### User - 3
 A returning visitor wants to see what classes are on offer this week at 'The Studio', she also wants to download a copy of it to print off.
 
 ![Timetable](/images/user-3.jpg)
@@ -152,7 +155,7 @@ A first time visitor has a question in mind but can not find the answer in the F
 
 An accordion of frequently asked questions has been inserted in page 'FAQs', when the question is selected the answer is displayed. An enquiry form is located under this, the user can then ask any questions that have not been answered. The form is labelled correctly with placeholder text to aid the user.
 
-# Lighthouse
+## Lighthouse
 
 For Desktop
 ![Lighthouse](/images/lgthouse-chrome-d.jpg)

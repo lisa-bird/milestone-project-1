@@ -123,8 +123,12 @@ table th, table td {
 .time {
   width: 3em !important;
 }
-.mytimetable {
-  overflow-x: scroll;
+.mybutton {
+  border: 2px solid #ffc107;
+  padding: 0.5rem;
+  color: #ffc107;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 /*----------------------------Blog articles*/
@@ -142,6 +146,9 @@ table th, table td {
   padding-top: 5px;
   display: inline;
   font-size: 26px;
+}
+.blog {
+  width: 100%;
 }
 /*-------------------------Accordion styling */
 .myaccordion {
